@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Cozy House</title>
+</head>
+<body>
+  <header class="header-main">
+    <div class="container header-indent">
+      <div class="header-block">
+        <div class="header-block__logo">
+          <a class="link-logo" href="#"><span class="logo-title title-font">Cozy House</span></a>
+          <span class="logo-subtitle text-font">Shelter for pets in Boston</span>
+        </div>
+        <nav class="header-block__nav 
+        color-menu-main">
+          <ul class="header-block__nav-items">
+            <li class="non-interactive">
+              <a class="non-interactive-item text-font" href="#">About the shelter</a>
+              <div class="border"></div>
+            </li>
+            <li class="nav-item text-font">
+              <a class="link-item" href="./pets.html">Our pets</a>
+            </li>
+            <li class="nav-item text-font">
+              <a class="link-item" href="#help-section">Help the shelter</a>
+            </li>
+            <li class="nav-item text-font">
+              <a class="link-item" href="#footer-section">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger-btn">
+          <div class="header-block__burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </button>
+      </div>
+      <section class="not-only">
+        <div class="not-only-block">
+          <div class="not-only-block__info">
+            <h1 class="not-only-block__info-title title-font">Not only people <span class="new-line">need a house</span></h1>
+            <p class="not-only-block__info-text text-font">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+            <a class="btn-not-only btn-link btn-primary title-font" href="#our-friends-section">Make a friend</a>
+          </div>
+          <img class="not-only-block__img" src="./assets/images/start-screen-puppy.png" alt="puppy-dog-image">
+        </div>
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="about">
+      <div class="container indent indent-media-about">
+        <div class="about-block">
+          <img class="about-block__img" src="./assets/images/about-pets.png" alt="pets-image">
+          <div class="about-block__info">
+            <h2 class="second-title title-font">About the shelter <span class="new-line">“Cozy House”</span></h2>
+            <p class="about-block__info-text first-part-text text-font">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+            <p class="about-block__info-text text-font">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-friends-section" class="our-friends">
+      <div class="container indent indent-media-our-friends our-friends-parent">
+        <div class="our-friends-block">
+          <h2 class="our-friends-block__title second-title title-font">Our friends who <span class="new-line">are looking for a house</span></h2>
+          <div class="our-friends-block__carousel">
+            <button class="arrow arrow-common arrow-media arrow-left">
+              <img src="./assets/images/arrow-left.svg" alt="arrow-left">
+            </button>
+            <div class="our-friends-block__carousel-cards">
+              <div class="carousel"><!--тут заполняю блоки с карточками--></div>
+            </div>
+            <button class="arrow arrow-common arrow-media arrow-right">
+              <img src="./assets/images/arrow-right.svg" alt="arrow-right">
+            </button>
+            <div class="hidden container-arrow-media-phone">
+              <button class="arrow arrow-common arrow-left">
+                <img src="./assets/images/arrow-left.svg" alt="arrow-left">
+              </button>
+              <button class="arrow arrow-common arrow-right">
+                <img src="./assets/images/arrow-right.svg" alt="arrow-right">
+              </button>
+            </div>
+          </div>
+          <a class="btn-link btn-primary title-font" href="./pets.html">Get to know the rest</a>
+        </div>
+        <div class="overlay hidden">
+          <div class="popup">
+            <button class="arrow arrow-common btn-popup">
+              <img src="./assets/images/cross.png" alt="cross">
+            </button>
+            <div class="popup-container">
+              <!--тут карточка с конкретным питомцем-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="help-section" class="help">
+      <div class="container indent indent-media-help">
+        <div class="help-block">
+          <h2 class="help-block__title second-title title-font">How you can help <span class="new-line">our shelter</span></h2>
+          <ul class="help-block__items">
+            <li class="help-item pet-food">
+              <img src="./assets/images/icon-pet-food.svg" alt="icon-pet-food">
+              <span class="help-name title-font">Pet food</span>
+            </li>
+            <li class="help-item transportation">
+              <img src="./assets/images/icon-transportation.svg" alt="icon-transportation">
+              <span class="help-name title-font">Transportation</span>
+            </li>
+            <li class="help-item toys">
+              <img src="./assets/images/icon-toys.svg" alt="icon-toys">
+              <span class="help-name title-font">Toys</span>
+            </li>
+            <li class="help-item bowls">
+              <img src="./assets/images/icon-bowls-and-cups.svg" alt="icon-bowls-and-cups">
+              <span class="help-name title-font">Bowls and cups</span>
+            </li>
+            <li class="help-item shampoos">
+              <img src="./assets/images/icon-shampoos.svg" alt="icon-shampoos">
+              <span class="help-name title-font">Shampoos</span>
+            </li>
+            <li class="help-item vitamins">
+              <img src="./assets/images/icon-vitamins.svg" alt="icon-vitamins">
+              <span class="help-name title-font">Vitamins</span>
+            </li>
+            <li class="help-item medicines">
+              <img src="./assets/images/icon-medicines.svg" alt="icon-medicines">
+              <span class="help-name title-font">Medicines</span>
+            </li>
+            <li class="help-item collars">
+              <img src="./assets/images/icon-collars-leashes.svg" alt="icon-collars-leashes">
+              <span class="help-name title-font">Collars / leashes</span>
+            </li>
+            <li class="help-item sleeping">
+              <img src="./assets/images/icon-sleeping-area.svg" alt="icon-sleeping-area">
+              <span class="help-name title-font">Sleeping areas</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="addition">
+      <div class="container addition-indent">
+        <div class="addition-block">
+          <img class="addition-block__img" src="./assets/images/donation-dog.png" alt="dog-image">
+          <div class="addition-block__info">
+            <h2 class="addition-block__info-title second-title title-font">You can also <span class="new-line">make a donation</span></h2>
+            <span class="addition-block__info-name title-font">Name of the bank / Type of bank account</span>
+            <div class="addition-block__info-number">
+              <img src="./assets/images/credit-card.svg" alt="credit-card-image">
+              <p class="card-number title-font">8380 2880 8028 8791 7435</p>
+            </div>
+            <p class="addition-block__info-text text-font">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer-section">
+      <div class="container footer-indent">
+        <div class="footer-block">
+          <div class="footer-block__contacts">
+            <h2 class="footer-block__contacts-title second-title title-font footer-title-media">For questions <span class="new-line">and suggestions</span></h2>
+            <h2 class="hidden footer-block__contacts-title second-title title-font footer-title-media-phone">For questions and<br> suggestions</h2>
+            <div class="footer-block__contacts-email">
+              <a class="email-icon" href="mailto:email@shelter.com"><img src="./assets/images/icon-email.svg" alt="icon-email"></a>
+              <a class="email title-font" href="mailto:email@shelter.com">email@shelter.com</a>
+            </div>
+            <div class="footer-block__contacts-phone-number">
+              <a class="phone-number-icon" href="tel:+136745677554"><img src="./assets/images/icon-phone.svg" alt="icon-phone"></a>
+              <a class="phone-number title-font" href="tel:+136745677554">+13 674 567 75 54</a>
+            </div>
+          </div>
+          <div class="footer-block__location">
+            <h2 class="footer-block__location-title second-title title-font footer-title-media">We are waiting <span class="new-line">for your visit</span></h2>
+            <h2 class="hidden footer-block__location-title second-title title-font footer-title-media-phone">We are waiting for<br> your visit</h2>
+            <div class="footer-block__location-boston">
+              <img src="./assets/images/icon-marker.png" alt="icon-marker">
+              <a class="location-boston title-font" href="https://www.google.ru/maps/search/1+Central+Street,+Boston/@42.2560253,-70.9865362,11z?hl=ru&entry=ttu" target="_blank">1 Central Street, Boston (entrance from the store)</a>
+            </div>
+            <div class="footer-block__location-london">
+              <img src="./assets/images/icon-marker.png" alt="icon-marker">
+              <a class="location-london title-font" href="https://www.google.ru/maps/search/18+South+Park,+London/@51.4193738,-0.1988235,16.5z?hl=ru&entry=ttu" target="_blank">18 South Park, London</a>
+            </div>
+          </div>
+          <img class="footer-block__img" src="./assets/images/footer-puppy.png" alt="puppy-image">
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>

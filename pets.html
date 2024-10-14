@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Cozy House</title>
+</head>
+<body>
+  <header class="header-pets">
+    <div class="container header-indent-pets">
+      <div class="header-block header-block-pets">
+        <div class="header-block__logo">
+          <a class="link-logo" href="./index.html"><span class="logo-title logo-title-pets title-font">Cozy House</span></a>
+          <span class="logo-subtitle logo-subtitle-pets text-font">Shelter for pets in Boston</span>
+        </div>
+        <nav class="header-block__nav color-menu-pets">
+          <ul class="header-block__nav-items">
+            <li class="nav-item text-font"><a class="link-item-pets" href="./index.html">About the shelter</a></li>
+            <li class="non-interactive">
+              <a class="non-interactive-item non-interactive-item-pets text-font" href="#">Our pets</a>
+              <div class="border"></div>
+            </li>
+            <li class="nav-item text-font"><a class="link-item-pets" href="./index.html#help-section">Help the shelter</a></li>
+            <li class="nav-item text-font"><a class="link-item-pets" href="#footer-section">Contacts</a></li>
+          </ul>
+        </nav>
+        <button class="burger-btn">
+          <div class="header-block__burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </button>
+      </div>
+    </div>      
+  </header>
+  <main>
+    <section id="our-friends-section" class="our-friends">
+      <div class="container indent indent-media-our-friends-pet">
+        <div class="our-friends-block our-friends-block-pets">
+          <h1 class="our-friends-block__title second-title title-font">Our friends who <span class="new-line">are looking for a house</span></h1>
+          <div class="our-friends-block__pets-cards">
+            <!--тут заполняю блоки с карточками-->
+          </div>
+          <div class="pagination-pets">
+            <button class="event non-active arrow arrow-common arrow-pagination-double-left">&lt;&lt;</button>
+            <button class="event non-active arrow arrow-common arrow-pagination-left">&lt;</button>
+            <button class="arrow arrow-common pagination-page title-font"><!--номер пагинации--></button>
+            <button class="arrow arrow-common arrow-pagination-right">&gt;</button>
+            <button class="arrow arrow-common arrow-pagination-double-right">&gt;&gt;</button>
+          </div>
+          <div class="overlay hidden">
+            <div class="popup">
+              <button class="arrow arrow-common btn-popup">
+                <img src="./assets/images/cross.png" alt="cross">
+              </button>
+              <div class="popup-container">
+                <!--тут карточка с конкретным питомцем-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer-section">
+    <div class="container footer-indent">
+      <div class="footer-block">
+        <div class="footer-block__contacts">
+          <h2 class="footer-block__contacts-title second-title title-font footer-title-media">For questions <span class="new-line">and suggestions</span></h2>
+          <h2 class="hidden footer-block__contacts-title second-title title-font footer-title-media-phone">For questions and<br> suggestions</h2>
+          <div class="footer-block__contacts-email">
+            <a class="email-icon" href="mailto:email@shelter.com"><img src="./assets/images/icon-email.svg" alt="icon-email"></a>
+            <a class="email title-font" href="mailto:email@shelter.com">email@shelter.com</a>
+          </div>
+          <div class="footer-block__contacts-phone-number">
+            <a class="phone-number-icon" href="tel:+136745677554"><img src="./assets/images/icon-phone.svg" alt="icon-phone"></a>
+            <a class="phone-number title-font" href="tel:+136745677554">+13 674 567 75 54</a>
+          </div>
+        </div>
+        <div class="footer-block__location">
+          <h2 class="footer-block__location-title second-title title-font footer-title-media">We are waiting <span class="new-line">for your visit</span></h2>
+          <h2 class="hidden footer-block__location-title second-title title-font footer-title-media-phone">We are waiting for<br> your visit</h2>
+          <div class="footer-block__location-boston">
+            <img src="./assets/images/icon-marker.png" alt="icon-marker">
+            <a class="location-boston title-font" href="https://www.google.ru/maps/search/1+Central+Street,+Boston/@42.2560253,-70.9865362,11z?hl=ru&entry=ttu" target="_blank">1 Central Street, Boston (entrance from the store)</a>
+          </div>
+          <div class="footer-block__location-london">
+            <img src="./assets/images/icon-marker.png" alt="icon-marker">
+            <a class="location-london title-font" href="https://www.google.ru/maps/search/18+South+Park,+London/@51.4193738,-0.1988235,16.5z?hl=ru&entry=ttu" target="_blank">18 South Park, London</a>
+          </div>
+        </div>
+        <img class="footer-block__img" src="./assets/images/footer-puppy.png" alt="puppy-image">
+      </div>
+    </div>
+  </footer>
+
+  <script src="./pets.js"></script>
+</body>
+</html>
